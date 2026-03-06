@@ -1,3 +1,5 @@
+import numpy as np
+import matplotlib.pyplot as plt
 class Boid:
     def move_boid(self, *, dt: float) -> None:
         """
@@ -32,7 +34,7 @@ class Boid:
     def __init__(self, position, velocity):
         self.position = np.array(position, dtype=float)
         self.velocity = np.array(velocity, dtype=float)
-        
+
 def run_app():
     my_obj = Boid("Hi!")
     print(f"{my_obj.arg = }")
