@@ -1,0 +1,19 @@
+# Changes here will be overwritten by Copier
+_commit: e00602a
+_src_path: gh:CENTURI-Introduction-to-Python/CENTURI-template.git
+class_name: Boid
+display_name: Boid
+email: arno.feinstein@univ-amu.fr
+executable: true
+full_name: Arno Feinstein
+github_repository_url: https://github.com/arnofeinstein/boid
+github_username_or_organization: arnofeinstein
+license: MIT
+module_name: _boid
+numpy: true
+package_name: boid
+scikit_image: false
+scikit_learn: false
+scipy: false
+short_description: Boid simulation
+test_notebook: true
